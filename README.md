@@ -1,5 +1,3 @@
-
-
 # Filter & Pagination in Django
 
 - Filter your result-set
@@ -64,6 +62,11 @@ FilterPagination.filter_and_pagination(request, ModelRefrence)
 	}
 }
 ```
+
+---
+### PyPi
+- Project: filter-and-pagination
+- link: https://pypi.org/project/filter-and-pagination/
 
 ---
 ### GitHub
