@@ -1,3 +1,4 @@
+
 # Filter & Pagination in Django
 
 - Filter your result-set
@@ -5,8 +6,8 @@
 - It's a open source service. 
 - Easy to implement
 - Fastest execution & High performance
----
 
+---
 ## Install with pip
 ```
 pip install filter-and-pagination
@@ -24,7 +25,7 @@ pip install filter-and-pagination
 
 ---
 ### Medium
-- Artical: 
+- Artical: Filter & Pagination in Django
 - link: https://medium.com/@sondagarashish/filter-and-pagination-in-django-c0a61ff5f5c4
 
 ---
