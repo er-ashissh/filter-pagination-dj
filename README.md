@@ -11,6 +11,7 @@
 ```
 pip install filter-and-pagination
 ```
+
 ---
 ## How to implement
 - import  FilterPagination
@@ -80,7 +81,7 @@ FilterPagination.filter_and_pagination(request, ModelRefrence)
 
 ---
 ### Medium
-- Artical: Filter & Pagination in Django
+- Article: Filter & Pagination in Django
 - link: https://medium.com/@sondagarashish/filter-and-pagination-in-django-c0a61ff5f5c4
 
 ---
