@@ -21,7 +21,7 @@ from filter_and_pagination import FilterPagination
 
 - Used in
 ```
-FilterPagination.filter_and_pagination(request, ModelRefrence)
+FilterPagination.filter_and_pagination(request, ModelReference)
 ```
 
 ---
