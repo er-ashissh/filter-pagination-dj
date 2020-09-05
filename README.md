@@ -241,6 +241,90 @@ resultset = {'dataset': serialize_data, 'pagination': queryset['pagination']}
 }
 ```
 
+
+### Example 4:
+ **Request:**
+ - URL: http://127.0.0.1:8000/customers/api/v1/?created_at__from=2020-07-01&created_at__to=2020-10-01
+ - Method: GET
+
+**Response:**
+```
+{
+    "status_code": 200,
+    "status": "success",
+    "message": [
+        "Customer data retrieved successfully."
+    ],
+    "data": {
+        "dataset": [
+            {
+                "id": 190,
+                "name": "Kimberly",
+                "full_name": "Kimberly Hernandez",
+                "email": "gonzalezjustin@yahoo.com",
+                "contact_no_dail_code": "97",
+                "contact_no": "9881093638",
+                "dob": "2005-06-08",
+                "gender": 0,
+                "address": "15750 John Circle\nPort Richardmouth, OK 26450",
+                "extra": {},
+                "created_at": "2020-09-05T06:31:33.187520Z",
+                "updated_at": "2020-09-05T06:31:33.187525Z"
+            },
+            {
+                "id": 189,
+                "name": "Robert",
+                "full_name": "Robert Gilbert",
+                "email": "smeyer@miller-adams.com",
+                "contact_no_dail_code": "145",
+                "contact_no": "9885968723",
+                "dob": "1904-11-04",
+                "gender": 0,
+                "address": "3113 Adam Port Suite 601\nMelissaview, IA 82893",
+                "extra": {},
+                "created_at": "2020-09-05T06:31:33.187491Z",
+                "updated_at": "2020-09-05T06:31:33.187497Z"
+            },
+            {
+                "id": 188,
+                "name": "John",
+                "full_name": "John Cunningham",
+                "email": "joanne99@gmail.com",
+                "contact_no_dail_code": "101",
+                "contact_no": "9847393498",
+                "dob": "2018-12-06",
+                "gender": 0,
+                "address": "169 Holmes Knoll Suite 326\nSouth Cole, MT 47763",
+                "extra": {},
+                "created_at": "2020-09-05T06:31:33.187458Z",
+                "updated_at": "2020-09-05T06:31:33.187463Z"
+            },
+			...(16 more recored)...
+            {
+                "id": 171,
+                "name": "Robert",
+                "full_name": "Robert Willis",
+                "email": "laurie53@adams.com",
+                "contact_no_dail_code": "202",
+                "contact_no": "9814939456",
+                "dob": "1953-04-30",
+                "gender": 0,
+                "address": "515 Kristina Oval\nLoganfurt, NE 57447",
+                "extra": {},
+                "created_at": "2020-09-05T06:31:19.465884Z",
+                "updated_at": "2020-09-05T06:31:19.465903Z"
+            }
+        ],
+        "pagination": {
+            "per_page": 20,
+            "current_page": 1,
+            "total_count": 20,
+            "total_pages": 1
+        }
+    }
+}
+```
+
 ---
 ### PyPi
 - Project: filter-and-pagination
