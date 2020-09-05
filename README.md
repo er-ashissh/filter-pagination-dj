@@ -299,7 +299,7 @@ resultset = {'dataset': serialize_data, 'pagination': queryset['pagination']}
                 "created_at": "2020-09-05T06:31:33.187458Z",
                 "updated_at": "2020-09-05T06:31:33.187463Z"
             },
-			...(16 more recored)...
+	    ...(16 more recored)...
             {
                 "id": 171,
                 "name": "Robert",
